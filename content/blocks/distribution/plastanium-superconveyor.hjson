@@ -1,0 +1,14 @@
+type: StackConveyor
+name: Plastanium Superconveyor
+description: Improved version of plastanium conveyor.
+
+speed: 0.1
+itemCapacity: 20
+health: 100
+category: distribution
+research: plastanium-conveyor
+requirements: [
+  plastanium/2
+  silicon/2
+  phase-fabric/1
+]
