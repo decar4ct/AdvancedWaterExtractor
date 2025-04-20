@@ -1,0 +1,17 @@
+type: PowerNode
+
+name: "Huge Power Node"
+description: "An even more advanced power node with far greater range and more max connections."
+details: "this thing exists for no reason"
+
+requirements: [
+  titanium/10
+  lead/15
+  silicon/10
+  phase-fabric/5
+]
+size: 3
+maxNodes: 30
+laserRange: 25
+research: power-node-large
+category: power

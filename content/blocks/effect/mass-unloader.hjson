@@ -1,0 +1,14 @@
+type: Unloader
+
+name: "Mass Unloader"
+description: "Unloads the selected item from nearby blocks. Significantly faster than regular unloader."
+
+requirements: [
+  titanium/40
+  silicon/40
+  plastanium/20
+]
+speed: 1.5
+research: unloader
+category: effect
+group: transportation

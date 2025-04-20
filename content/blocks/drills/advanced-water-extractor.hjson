@@ -1,0 +1,24 @@
+type: SolidPump
+
+name: "Advanced Water Extractor"
+description: "Extracts large amount of groundwater. Used in locations with no surface water available."
+
+requirements: [
+  copper/50
+  lead/75
+  metaglass/75
+  graphite/75
+  titanium/30
+]
+size: 3
+result: water
+attribute: water
+pumpAmount: 0.4166666666666
+hasPower: true
+rotateSpeed: 3
+consumes: {
+  power: 5.5
+}
+research: water-extractor
+category: production
+liquidCapacity: 90

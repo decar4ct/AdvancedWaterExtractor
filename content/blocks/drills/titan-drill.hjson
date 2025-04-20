@@ -1,0 +1,35 @@
+type: Drill
+
+name: "Titan Drill"
+description: "The final drill. Uses even larger amount of power."
+
+requirements: [
+  copper/75
+  titanium/75
+  thorium/75
+  silicon/100
+  surge-alloy/25
+]
+drillTime: 260
+drawRim: true
+tier: 6
+size: 5
+hasPower: true
+rotateSpeed: 8
+warmupSpeed: 0.01
+itemCapacity: 30
+liquidBoostIntensity: 1.9
+drillEffect: mineHuge
+updateEffect: pulverizeRed
+updateEffectChance: 0.06
+consumes: {
+  power: 5
+  liquid: {
+    liquid: water
+    amount: 0.2
+    booster: true
+    optional: true
+  }
+}
+research: blast-drill
+category: production

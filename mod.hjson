@@ -1,0 +1,9 @@
+name: "awex"
+displayName: "Advanced Water Extractor"
+author: "thruster"
+description: "add various contents as extension to the vanilla mindustry. ignore the silly name"
+subtitle: "schem hell"
+version: "v1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false

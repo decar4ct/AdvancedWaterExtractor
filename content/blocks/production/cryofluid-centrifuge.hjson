@@ -1,0 +1,53 @@
+type: GenericCrafter
+
+name: "Cryofluid Centrifuge"
+description: "Mixes water and fine titanium powder to produce cryofluid. More efficient than cryofluid mixer."
+
+requirements: [
+  lead/75
+  silicon/60
+  titanium/70
+]
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+rotate: false
+solid: true
+outputsLiquid: true
+liquidCapacity: 90
+craftTime: 60
+lightLiquid: cryofluid
+consumes: {
+  power: 2
+  items: [
+    titanium/1
+  ]
+  liquids: [
+    water/0.8
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: water
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: cryofluid
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
+
+outputLiquid: cryofluid/0.8
+research: cryofluid-mixer
+category: crafting
