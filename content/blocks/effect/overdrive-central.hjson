@@ -20,6 +20,7 @@ useTime: 240
 hasBoost: false
 category: effect
 consumes: {
+  power: 18
   items: [
     phase-fabric/1
     surge-alloy/1
