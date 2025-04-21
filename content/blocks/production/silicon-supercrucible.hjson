@@ -16,8 +16,8 @@ hasPower: true
 hasItems: true
 hasLiquids: false
 craftEffect: smeltsmoke
-itemCapacity: 50
-craftTime: 60
+itemCapacity: 30
+craftTime: 90
 boostScale: 0.15
 outputItem: silicon/12
 consumes: {
@@ -38,7 +38,7 @@ drawer: {
     }
     {
     type: DrawFlame
-    color: ffef99
+    flameColor: ffef99
     }
   ]
 }
