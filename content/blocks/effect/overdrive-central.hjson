@@ -1,16 +1,17 @@
 type: OverdriveProjector
 
-name: "Thorium Mass Reactor"
-description: "Generates significant amounts of power from thorium. Requires constant cooling. Will explode VERY violently if insufficient amounts of coolant are supplied."
-details: "nuclear bombs"
+name: "Overdrive Central"
+description: "Increases the speed of nearby buildings."
+details: "WE HAV REAHCED MXAIMUN VLELOCIPY"
 
 requirements: [
-  lead/400
-  silicon/350
-  graphite/200
-  thorium/300
-  metaglass/100
-  plastanium/50
+  lead/300
+  titanium/200
+  silicon/200
+  thorium/100
+  plastanium/100
+  phase-fabric/80
+  surge-alloy/200
 ]
 size: 3
 range: 280
