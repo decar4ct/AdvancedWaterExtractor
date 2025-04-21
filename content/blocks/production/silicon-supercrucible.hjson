@@ -1,49 +1,47 @@
-type: GenericCrafter
+type: AttributeCrafter
 
 name: "Multi-Crucible"
 description: "Exterminates siligones."
 details: "Blasts blast compound to poor coal and sand to make you happy."
 
 requirements: [
-  lead/75
-  silicon/60
-  titanium/70
+  titanium/180
+  metaglass/120
+  plastanium/120
+  silicon/100
+  thorium/80
 ]
 size: 4
 hasPower: true
 hasItems: true
-rotate: false
-solid: true
-craftTime: 90
+hasLiquids: false
+craftEffect: smeltsmoke
+itemCapacity: 50
+craftTime: 60
+boostScale: 0.15
+outputItem: silicon/12
 consumes: {
-  power: 10
+  power: 8
   items: [
-    sand/10
-    coal/8
-    blast-compound/2
+    coal/5
+    sand/8
+    blast-compound/1
   ]
 }
+ambientSound: smelter
+ambientSoundVolume: 0.09
 drawer: {
   type: DrawMulti
   drawers: [
     {
-    type: DrawRegion
-    suffix: -bottom
-    }
-    {
-    type: DrawLiquidTile
-    drawLiquid: water
-    }
-    {
-    type: DrawLiquidTile
-    drawLiquid: cryofluid
-    }
-    {
     type: DrawDefault
+    }
+    {
+    type: DrawFlame
+    color: ffef99
     }
   ]
 }
 
-outputLiquid: cryofluid/0.8
-research: cryofluid-mixer
+research: silicon-crucible
 category: crafting
