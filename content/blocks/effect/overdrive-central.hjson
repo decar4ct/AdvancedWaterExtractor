@@ -1,7 +1,7 @@
 type: OverdriveProjector
 
 name: "Overdrive Central"
-description: "Increases the speed of nearby buildings."
+description: "Increases the speed of nearby buildings. Requires phase fabric and surge alloy to operate. Does not stack."
 details: "WE HAV REAHCED MXAIMUN VLELOCIPY"
 
 requirements: [
