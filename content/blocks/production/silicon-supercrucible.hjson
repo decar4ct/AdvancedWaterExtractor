@@ -19,12 +19,12 @@ craftEffect: smeltsmoke
 itemCapacity: 30
 craftTime: 90
 boostScale: 0.15
-outputItem: silicon/12
+outputItem: silicon/15
 consumes: {
   power: 8
   items: [
-    coal/5
-    sand/8
+    coal/6
+    sand/10
     blast-compound/1
   ]
 }
