@@ -2,7 +2,7 @@ type: SolidPump
 
 name: "Advanced Water Extractor"
 description: "Extracts large amount of groundwater. Used in locations with no surface water available."
-
+details: "#1 climate change opponent"
 requirements: [
   copper/50
   lead/75
