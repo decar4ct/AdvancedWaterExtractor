@@ -1,0 +1,26 @@
+type: OverdriveProjector
+
+name: "Thorium Mass Reactor"
+description: "Generates significant amounts of power from thorium. Requires constant cooling. Will explode VERY violently if insufficient amounts of coolant are supplied."
+details: "nuclear bombs"
+
+requirements: [
+  lead/400
+  silicon/350
+  graphite/200
+  thorium/300
+  metaglass/100
+  plastanium/50
+]
+size: 3
+range: 280
+speedBoost: 3.5
+useTime: 240
+hasBoost: false
+category: effect
+consumes: {
+  items: [
+    phase-fabric/1
+    surge-alloy/1
+  ]
+}
