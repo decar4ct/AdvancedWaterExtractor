@@ -1,0 +1,43 @@
+type: ItemTurret
+name: "Pierce"
+description: "Fires short ranged piercing bullet at the enemy."
+
+health: 200
+size: 1
+category: turret
+requirements: [
+  copper/60
+  lead/40
+]
+research: duo
+  
+targetAir: false
+targetGround: true
+reload: 60
+range: 100
+inaccuracy: 2
+shootCone: 4
+fogRadiusMultiplier: 0
+
+minWarmup: 0.6
+shootWarmupSpeed: 0.07
+
+ammoTypes: {
+  copper: {
+    type: BasicBulletType
+    width: 4
+    height: 4
+    shrinkX: 0.3
+    speed: 8
+    lifetime: 12.5
+    damage: 10
+    trailLength: 6
+    trailWidth: 1
+    pierceCap: 3
+    ammoMultiplier: 1
+  }
+}
+
+drawer: {
+  type: DrawTurret
+}
