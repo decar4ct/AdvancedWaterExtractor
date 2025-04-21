@@ -2,6 +2,7 @@ type: Drill
 
 name: "Titan Drill"
 description: "The final drill. Uses even larger amount of power."
+details: "Makes me wonder why ores aren't depleted yet"
 
 requirements: [
   copper/75
