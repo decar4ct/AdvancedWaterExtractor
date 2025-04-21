@@ -15,7 +15,7 @@ requirements: [
 ]
 size: 3
 range: 280
-speedBoost: 3.5
+speedBoost: 3
 useTime: 240
 hasBoost: false
 category: effect
