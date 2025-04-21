@@ -2,6 +2,7 @@ type: GenericCrafter
 
 name: "Cryofluid Centrifuge"
 description: "Mixes water and fine titanium powder to produce cryofluid. More efficient than cryofluid mixer."
+details: "Why would you need such cryofluids? For T4s and T5s? Or just to feed your bombs."
 
 requirements: [
   lead/75
