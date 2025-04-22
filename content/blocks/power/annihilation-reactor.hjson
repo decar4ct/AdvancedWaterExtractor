@@ -1,7 +1,7 @@
 type: ImpactReactor
 
 name: "Annihilation Reactor"
-description: "Generates an even more massive amounts of power at PEAK efficiency."
+description: "Generates an even more massive amounts of power at PEAK efficiency. Requires a significant power input to kickstart the process. Produces far greater power than impact reactor but consumes more blast compounds and a massive amount of cryofluids."
 details: "sprites/idea by nahan"
 
 requirements: [
@@ -17,9 +17,9 @@ size: 6
 health: 2200
 ambientSound: pulse
 ambientSoundVolume: 0.1
-itemDuration: 240
+itemDuration: 90
 liquidCapacity: 120
-powerProduction: 200
+powerProduction: 250
 research: impact-reactor
 category: power
 consumes: {
