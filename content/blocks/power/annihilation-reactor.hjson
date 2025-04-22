@@ -1,0 +1,37 @@
+type: NuclearReactor
+
+name: "Thorium Mass Reactor"
+description: "Generates an even more massive amounts of power at PEAK efficiency."
+details: "sprites by nahan"
+
+requirements: [
+  lead/400
+  silicon/350
+  graphite/200
+  thorium/300
+  metaglass/100
+  plastanium/50
+]
+size: 4
+ambientSound: hum
+ambientSoundVolume: 0.3
+itemDuration: 240
+itemCapacity: 45
+health: 1500
+powerProduction: 30
+heating: 0.005
+flashThreshold: 0.2
+research: thorium-reactor
+category: power
+consumes: {
+  items: [
+    thorium/1
+  ]
+  liquids: [
+    cryofluid/0.7833333333333
+  ]
+}
+explosionShake: 9
+explosionShakeDuration: 20
+explosionRadius: 25
+explosionDamage: 7500
