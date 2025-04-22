@@ -1,6 +1,9 @@
 name: "awex"
 displayName: "Advanced Water Extractor"
-author: "thruster"
+author: '''main dev: thruster
+
+contributors: nahan7, twcash.
+'''
 description: "add various contents as extension to the vanilla mindustry. ignore the silly name"
 subtitle: "schem hell"
 version: "v1.0"
