@@ -5,30 +5,29 @@ description: "Generates an even more massive amounts of power at PEAK efficiency
 details: "sprites/idea by nahan"
 
 requirements: [
-  lead/400
-  silicon/350
-  graphite/200
-  thorium/300
-  metaglass/100
-  plastanium/50
+  lead/800
+  metaglass/300
+  graphite/500
+  thorium/250
+  silicon/500
+  surge-alloy/300
+  plastanium/400
 ]
 size: 6
 health: 2200
 ambientSound: pulse
 ambientSoundVolume: 0.1
 itemDuration: 240
+liquidCapacity: 120
 powerProduction: 200
 research: impact-reactor
 category: power
 consumes: {
+  power: 30
   items: [
     blast-compound/2
   ]
   liquids: [
-    cryofluid/0.7833333333333
+    cryofluid/1
   ]
 }
-explosionShake: 9
-explosionShakeDuration: 20
-explosionRadius: 25
-explosionDamage: 7500
