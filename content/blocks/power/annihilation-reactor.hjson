@@ -19,11 +19,11 @@ ambientSound: pulse
 ambientSoundVolume: 0.1
 itemDuration: 90
 liquidCapacity: 120
-powerProduction: 250
+powerProduction: 270
 research: impact-reactor
 category: power
 consumes: {
-  power: 30
+  power: 40
   items: [
     blast-compound/2
   ]
