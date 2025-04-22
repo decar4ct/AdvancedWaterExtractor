@@ -31,3 +31,19 @@ consumes: {
     cryofluid/1
   ]
 }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawPlasma
+    plasmas: 8
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}
